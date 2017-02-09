@@ -1,0 +1,84 @@
+EXCEPTIONS:
+
+Something that doesn't not happen in compile time it happens on runtime
+
+
+First child of object is called throwable
+
+Throwable is a class, it has 2 child
+1) Error
+2) Exceptions:- not predictible 
+
+2 category of exception:- 
+a) Checked:- Outbound exception like file not available, server not available and db not available that JVM doesn't know
+-- Happens at compile time
+	IO exception
+	file not found exception
+	SQL exception
+	CloneNotSupportedException
+	User created exception is also called checked exception
+
+
+eg:- remote not supp exception, your own exception (eg:- fannie mae not supp exception), file not found exception
+
+b) unchecked:- known by jvm ( eg:- 10/2, jvm knows that is wrong)
+    (i) Runtime exception: Arthimetic
+                           -ve array size, class cast exception, null pointer
+
+
+On runtime exception JVM just stops and abort the block
+to handle that add TRY CATCH block.
+
+Finally block makes sure that is not caught in try and catch it is sure shot
+
+try{
+}
+catch{
+}
+Finally{
+}
+// When creating exception hierachy make sure specific exception class comes first  then comes generic classes
+
+
+if code is within try catch then when exception happens it could be caught rest of the business logic executes
+
+Generic exception can't be first as it handles everything and prog fails
+
+Finally can also have try and catch
+
+finally {
+
+try{}
+catch{}
+}
+
+you can alsos have try catch inside catch block
+
+catch{
+
+try{}
+catch{}
+}
+
+
+Throw is at statement level
+
+Throws:- it is at method  level not statement level
+
+
+
+STATIC METHODS:
+these methods are method that gets loaded before main
+
+
+CLASSES:
+Mutable classes: getters and setters
+
+Partial mulatble : only getters
+
+Immutable class: no getter and setters
+
+
+Partial 
+
+

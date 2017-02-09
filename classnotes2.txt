@@ -1,0 +1,178 @@
+private int empID;
+//private String lName;
+//private String fName;
+private Name name;
+private double empSal;
+
+
+
+
+private int custID;
+private Name name;
+private double cutSal;
+
+
+
+public class Name{
+private String lName;
+private String fName;
+private double mName;
+
+}
+
+
+overriding:
+
+class Employee {}
+this class will have its own methods and then takes properties of superclass too.
+
+first methid is toString method in object hierrachy
+
+
+donot use method:
+
+@Override
+protected void finalize() throws Throwable {
+	// TODO Auto-generated method stub
+	super.finalize();
+}
+
+class EMP{
+
+EMP()()
+~EMP(){} --> this is called destructor
+
+use method finalized in the java
+
+to invioke this invoke explicitly
+Runtime.runFinalizersOnExit(false);--> by default it is false
+
+this is for purging
+
+
+Inheritence
+ Simple or single inheritence
+ multilevel inheritence
+ but not multiple inhertience ( so if w ehave class A B and C, then C can't extend both B and A, multiple parents not allowed)
+
+when uing inheritence IS A words used
+eg:-car IS A vehicle
+
+abstract or vague level
+VEhicle
+move()
+
+FourWHeeler
+steering()
+
+car
+Make(String)
+
+
+
+Class A {
+
+feature1 // either public or protected anyone who is inherting this class will have access to this feature
+
+}
+
+Class B extends A {
+
+
+
+}
+
+Class C extends B {
+
+}
+
+MUtable classes: Class that allows to change value and they have setters and immutable have constructor and only getters and object space can't be shared
+
+ABSTRACTION:
+
+ABSTRACT class: is a class is abstract then its instance can't be created. Abstract class has abstract methods, abstract methods that don't have the method body they are just decalartion.
+class that inherits  abstract class must override all absstract methods and provide implementation to specific classs.
+In abstract class you can also have concrete methods
+
+public void draw(); ( when abstract word not used it is concrete)
+
+use abstract for the things that will not change a lot
+
+Abstract is homogeneous
+
+Polymorphism: same object whose behavior changes depending on the situation ( example of car and jeep). Or same object behaving different at diff point of time
+
+
+INTERFACES:
+
+interfaces: they are 100% abstract and they allow multiple inheritence
+interface figure{}--> that is how class defined.
+voluntarily or involuntirly you inherit properties of other classes they might not be inheritated
+eg: Human breathe as animal breathe we are related indirectly
+
+concept should be put in interface
+
+interfaces doesn't take any property from object class as they are not class.
+variable: int x;:- this will be transformed to
+public static int final x;
+
+so no vairables in interface it is translated to the above statement.
+
+in interface least and most access identifier is Public
+no concept of priv and protected.
+
+you can't have concrete method
+
+void hi(); becomes public abstract void hi();
+
+interfaces can't be instantiated.
+
+
+Implement key word used for interfaces
+
+RULES:
+
+class extend class and interface extends interface or interfaces.
+
+class implements interface or interfaces. Interface neither extends or implements class
+
+class is concrete and interface is abstract.
+
+Class follows rules not interfaces
+
+USES:
+Standards and business logic put in interface level
+Shared/ common behavior ( like on and off it can be for light, for tubelight, for remote etc..)--> polymorphism
+now in the above example you can use interfaces.
+Class RemoteControl
+Device d[];
+
+SORTING:
+in any sort you need to SWAP
+
+you need to have altleast 2 value
+you swap values
+example:
+ANDY and ANDY==0
+BECKY and ANDY = +1
+ANDY And BECKY =-1
+only 3 values possible 0, - and +ve
+
+
+marker interface: interfaces with no method, it is only use to shut instance of
+
+
+Comparable sorting:
+The moment you say sort it is kept in array
+
+
+
+
+INSTANCEOF: Parent child relation
+
+
+
+
+
+Exception:
+Class cast exception: is that class implementing required class to perform that action

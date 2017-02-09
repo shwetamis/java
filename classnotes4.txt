@@ -1,0 +1,58 @@
+FILE Handling:
+
+
+
+BufferReader and BufferWriter -- for textual data as transmit data char by char
+
+
+BUrred input stream and output stream: transmit data with bytes (photos and videos)
+
+
+
+Serialization:
+
+Marker interface: it doesn't have any methods
+it only decides eligibility that this is ready to be serealized.
+it only checks during compile time
+
+object readers and writes can't be read as they are objects not chars
+
+
+
+
+LOOPS:
+
+
+String [] arr = new String [5];
+
+for (String temp : arr) {} ---> this will exactly increment by 1
+
+for(int i=0; i<arr.length; i++){}
+
+
+Array: Collection of homogeneous datatypes
+
+Linked LIst: you can add anywhere 
+
+
+physical add
+pointers or hash code in java as java doesn't have pointers
+
+list will store duplicates
+only set sortedset will store unique
+
+Tree set are good for reportig and HAsh set are good for storing
+
+
+In hash :
+1) we have bucket: if names want to be stored they are not stored in list but in bucket fashion.
+(26, 26 and 0-9 and +1)
+26: CAps alpha
+26: Small alpha
+0-9- num
++1:- Specialchar
+
+The way to determine what goes first if your hash code
+Hash code will return integer value
+
+Hash values as they are given they are not sorted.

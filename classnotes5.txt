@@ -1,0 +1,72 @@
+EXCEPTIONS
+
+1) Java exceptions are handled by java
+
+2) for user defined exception ( like fannie mae exception) ( you need to say THROW) and dit should extend class called exception class
+
+3) If you are throwing user defined/cheked exception it should be in TRy catch block (mandatory) or have a throws clause. if not then compiled time problem occurs
+
+4) For java exception (arithmetic or inbound exp):- then block is not mandatory.
+
+
+
+FILE HANDLING: stored in two fasions
+
+1) Streamed fashion : buffer reader / writer
+	system.in : data comes from here ( yr keyboard)
+	("sample.txt, true):- it is ensure file is not overwritten its appended.
+
+2) Char fashion : For storing object ( photo , video)
+	Block of data passed--> java--> buffer
+	Size is unknown
+	object needs to be broken down in bits and pieces for that stamping needed so we use class called serialization
+Serialization
+	Object input:- store ; object out put:- for output
+	data in and out :- same order
+	It is fast 
+
+
+
+
+Collections:
+	List, Set, Que
+	They are interfaces
+	Most of methods defined
+	Super interface over collection : ITERABLE ( read only and they move forward only).
+	List: ordered set ( array ( when request mad size expanded), vectors( capacity), linked list, stack)
+	Set: Not stored in ordered list, they store in bucket fashion.( two methods of obj class: Hash codewhere to sit) and  (Equals ( should you sit or not)).
+	SET: Hash set ( not sorted so fast in storing); Tree set ( slower to store  but fast to retrieve as in sorted order).
+        MAP takes: key and value, where as list and set takes only one value. In MAP no concept of rejection but it overwrite( hap map and tree map).
+        Map don't have iterator.Map stroed in bit and pieces
+	Iterator starts at -1 position,a set we can iterate. Iterator are not allowed to manipulate the data. 
+	Collections.sort: Only works on list not sets
+	IN collection no polymorphism.( imagine there is a class integer that has parent--> number and that has parent--> object)or ( we have class called CAR--> FourWheeler-->Vehicle)
+	
+
+
+
+eg:- for one string create many values 
+
+For multiple val options
+MAP<String, List<String>> map = new 
+HashMap <String>, List<String>> ();
+
+OR 
+
+MAP<String, List<String[]> map = new 
+HashMap <String>, List<String[]> ();
+
+
+Set<Integer> iset = new 
+HashMap <Integer>();
+
+
+Wild card char: Partial polymorphic behaviour
+Set<? extends Number> set; // when you don't know what the type is 
+
+
+This will hold/ store but won't retieve as we don't know what type is
+
+It is only used to reference.
+
+

@@ -1,0 +1,76 @@
+abstraction: expose to only required things
+( no need to expose to things that happens behind the scene).
+
+Encapsulation: Access control.
+
+
+member variables, instance var or attributes is all same
+
+concrete methods:- where we can write something
+abstract methods:- where you don't right business logic. its just sitting there
+
+
+Memory:
+Heap memory:object memory which is expandable and shrinkabale when object get created.
+Stack: Every method stored in stack.
+Method stack: each method in storage stack is called method stack. 
+Every method has single behavior ( eg: light either on or off).
+LRU:- least recently used object.
+
+
+javac: it reads and checks if the prog is syntax correct. It is java compiler
+jre: java runtime executable.
+javap: java protocol
+java: java interpreter
+jar: java class bundled.
+( java program written, compiled and class created and bundled).
+
+WORM: write once and read many ( write in one OS and insatll in many OS):- JVM
+
+It is platform independent
+Architectural neutral
+monolathic: one processor multiple processes running.
+
+constant: all upper case
+camel case: for method and var
+class: pascal case (HelloWorld)
+Java only understand or takes string ( jpegs images videos etc..) everything is treated as string in java
+
+public static void main: is methods have word static then they are pre initialized.
+
+static value is always 0 : default
+
+class with main: client
+
+
+Employee emp = new Employee();
+
+constructor: first method to create an obj, if you don't have constructor in yr class compiler will create one.
+
+in java all values are pre initialized values are there no garbage val
+
+string is wrapper type not primitive type
+
+
+public: accessed by anyone
+private: only accessible within class
+protected: only child class can access
+default: if everything is in same package then that is default pacakage.
+
+
+
+
+//public int getEmpID(){ // this way you can access the variable via method
+//	return this.empID; //refer to var in this class
+//}
+//public void setEmpID(int empID) {
+//	this.empID=empID; //this refer to class variable
+//}
+
+encapulation:
+to hide something
+to enforce some business logic use getters and setters.
+
+beans are reuseable components.
+
+githup.com
